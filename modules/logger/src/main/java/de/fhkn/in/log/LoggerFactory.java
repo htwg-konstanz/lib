@@ -1,4 +1,4 @@
-package de.fhkn.log;
+package de.fhkn.in.log;
 
 import org.slf4j.ILoggerFactory;
 

@@ -1,7 +1,8 @@
 package org.slf4j.impl;
 
 import org.slf4j.ILoggerFactory;
-import de.fhkn.log.LoggerFactory;
+
+import de.fhkn.in.log.LoggerFactory;
 
 
 public class StaticLoggerBinder {

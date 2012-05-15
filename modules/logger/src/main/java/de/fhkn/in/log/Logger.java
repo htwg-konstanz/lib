@@ -1,7 +1,7 @@
 /*
  * 
  */
-package de.fhkn.log;
+package de.fhkn.in.log;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
