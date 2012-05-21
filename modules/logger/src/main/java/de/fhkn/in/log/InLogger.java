@@ -8,12 +8,13 @@ import java.util.Date;
 
 import org.slf4j.helpers.MarkerIgnoringBase;
 import org.slf4j.helpers.MessageFormatter;
+import org.slf4j.Logger;
 
 /**
  * HTWG Logger class
  * @author tzink
  */
-public class Logger extends MarkerIgnoringBase implements org.slf4j.Logger {
+public class InLogger extends MarkerIgnoringBase implements Logger {
 
 	private static final long serialVersionUID = 5418018688165135349L;
 
@@ -28,9 +29,9 @@ public class Logger extends MarkerIgnoringBase implements org.slf4j.Logger {
 	public static final int TRACE = 5;
 	public static final int DEFAULT_LOG_LEVEL = INFO;
 	
-	public Logger(String name) {
+	public InLogger(String name) {
 		this.name = name;
-		this.loglevel = Logger.DEFAULT_LOG_LEVEL;
+		this.loglevel = InLogger.DEFAULT_LOG_LEVEL;
 		String sprop = System.getProperty("log");
 		setLoglevel(sprop);
 	}
