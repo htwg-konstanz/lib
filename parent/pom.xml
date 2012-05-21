@@ -20,8 +20,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 <!--
-	this is the UTIL project parent.
-	UTIL is the parent project of all utility projects.
+	this is the 'lib' project parent.
+	'lib' is the parent project of all utility projects.
 	This parent/pom keeps settings / deps / licenses etc.
 -->
 <project
