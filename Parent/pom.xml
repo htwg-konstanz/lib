@@ -56,10 +56,25 @@
 		<url>http://travis-ci.org/#!/htwg/util</url>
 	</ciManagement>
 	-->
-	
+   
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    	<maven.compiler.source>1.6</maven.compiler.source>
+    	<maven.compiler.target>1.6</maven.compiler.target>
+  	</properties>
+
+	<build>
+    	<plugins>
+      		<plugin>
+        		<artifactId>maven-compiler-plugin</artifactId>
+        		<configuration>
+          			<source>${maven.compiler.source}</source>
+          			<target>${maven.compiler.target}</target>
+          			<encoding>${project.build.sourceEncoding}</encoding>
+        		</configuration>
+      		</plugin>
+		</plugins>
+	</build>
 
 	<dependencies>
 		<!-- everything should be unit tested -->
