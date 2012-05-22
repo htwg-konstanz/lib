@@ -1,13 +1,17 @@
+# Java #
 *.class
-.classpath
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
 # Eclipse
+.classpath
 .settings
 .project
-# Mac Stuff
+
+# OS Stuff
 .DS_Store
 ._.*
+*.swp

@@ -25,14 +25,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>parent</artifactId>
+		<artifactId>Parent</artifactId>
 		<groupId>de.fhkn.in.lib</groupId>
-		<relativePath>../../parent/pom.xml</relativePath>
+		<relativePath>../Parent/pom.xml</relativePath>
 		<version>1.0</version>
 	</parent>
 
-	<artifactId>log</artifactId>
 	<name>Logger</name>
+	<artifactId>Logger</artifactId>
+    <version>1.0</version>
 	<packaging>jar</packaging>
-  
 </project>
