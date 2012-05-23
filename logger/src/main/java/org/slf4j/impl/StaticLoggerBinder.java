@@ -1,3 +1,4 @@
+/*
 	Copyright (c) 2012 Thomas Zink, 
 
 	This program is free software: you can redistribute it and/or modify
@@ -12,33 +13,30 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+package org.slf4j.impl;
 
-# lib - Library and utilities
+import org.slf4j.ILoggerFactory;
 
-This is a collection of utility and library classes that are commonly
-used in our projects, nameingly UCE and P2P-RMI.
+import de.fhkn.in.log.InLoggerFactory;
 
-## Contents
 
-* 	Parent
+public class StaticLoggerBinder {
+	private static final StaticLoggerBinder SINGLETON = new StaticLoggerBinder();
+	public static final String REQUESTED_API_VERSION = "1.6.4";
+	private final ILoggerFactory factory = new InLoggerFactory();
 
-	The parent project, i.e. all common settings and dependencies
+	private StaticLoggerBinder() {}
+	
+	public static final StaticLoggerBinder getSingleton() {
+		return SINGLETON;
+	}
 
-* 	pom.xml
+	public ILoggerFactory getLoggerFactory() {
+		return factory;
+	}
 
-	This is the builder project, i.e. it builds all modules.
-
-* 	Logger
-
-	Our slf4j logger implementation which we use in all bundles.
-
-* 	SocketListener
-
-	A generic ServerSocket listener Thread implementation.
-	It listenes on a server socket und uses the Executer framework
-	to execute tasks.
-
-*	Test
-
-	Generic Unit Test / Mockito helper classes used in some of our
-	unit tests.
+	public String getLoggerFactoryClassStr() {
+		return InLoggerFactory.class.toString();
+	}
+}
