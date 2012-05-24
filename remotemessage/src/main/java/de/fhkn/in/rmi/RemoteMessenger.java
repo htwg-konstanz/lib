@@ -24,7 +24,7 @@ import java.rmi.RemoteException;
  * 
  * @author thomas zink
  */
-public class RemoteMessenger implements IRemoteMessage {
+public class RemoteMessenger implements RemoteMessageIface {
 	private static final String DEFAULT_MESSAGE = "Hello World of RMI!";
 	private final String message;
 

@@ -23,6 +23,6 @@ import java.rmi.RemoteException;
  * A remote interface to send a string message.
  * @author thomas zink
  */
-public interface IRemoteMessage extends Remote {
+public interface RemoteMessageIface extends Remote {
 	public String message() throws RemoteException;
 }
