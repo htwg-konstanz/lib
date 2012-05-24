@@ -42,3 +42,7 @@ used in our projects, nameingly UCE and P2P-RMI.
 
 	Generic Unit Test / Mockito helper classes used in some of our
 	unit tests.
+
+*	RemoteMessage
+
+	Remote Interface for a remote messenger and a concrete implementation.
