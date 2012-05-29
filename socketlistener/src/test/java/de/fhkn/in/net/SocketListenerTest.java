@@ -3,7 +3,6 @@
  */
 package de.fhkn.in.net;
 
-import static org.junit.Assert.fail;
 import static org.mockito.Matchers.isA;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;

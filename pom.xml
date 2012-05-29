@@ -33,7 +33,7 @@
 	
 	
 	<artifactId>build</artifactId>
-	<name>Builder</name>
+	<name>lib Builder</name>
 	<description>
 		The Builder of all lib projects
 	</description>
