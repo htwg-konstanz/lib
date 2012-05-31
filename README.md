@@ -16,7 +16,7 @@
 # lib - Library and utilities
 
 This is a collection of utility and library classes that are commonly
-used in our projects, nameingly UCE and P2P-RMI.
+used in our projects, specifically UCE and P2P-RMI.
 
 ## Contents
 
@@ -46,3 +46,8 @@ used in our projects, nameingly UCE and P2P-RMI.
 *	RemoteMessage
 
 	Remote Interface for a remote messenger and a concrete implementation.
+
+*	Util
+
+	Utility classes that implement functionality missing in the standard API
+	that are frequently needed.
