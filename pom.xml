@@ -44,5 +44,6 @@
     	<module>socketlistener</module>
 		<module>test</module>
     	<module>remotemessage</module>
+    	<module>util</module>
   	</modules>
 </project>
