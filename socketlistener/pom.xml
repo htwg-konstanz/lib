@@ -39,5 +39,10 @@
       		<version>1.0</version>
       		<scope>test</scope>
     	</dependency>
+    	<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
   	</dependencies>
 </project>

@@ -86,12 +86,14 @@
 			<version>4.8.2</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- everything should use a logger -->
+		<!-- moved further down to projects actually using a logger -->
+		<!-- 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.6.4</version>
 		</dependency>
+		-->
 	</dependencies>
 
 </project>
