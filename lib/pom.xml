@@ -40,6 +40,7 @@
 	<packaging>pom</packaging>
 		
 	<modules>
+			<module>../parent</module>
 			<module>../logger</module>
 			<module>../socketlistener</module>
 			<module>../test</module>
