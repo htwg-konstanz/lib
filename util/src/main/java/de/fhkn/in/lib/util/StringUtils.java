@@ -16,14 +16,7 @@
  */
 package de.fhkn.in.lib.util;
 
-import java.io.UnsupportedEncodingException;
-import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.regex.Pattern;
 
 /**
  * Provides some useful String utilities that are missing in the standard API.
