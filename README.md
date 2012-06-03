@@ -20,34 +20,35 @@ used in our projects, specifically UCE and P2P-RMI.
 
 ## Contents
 
-* 	Parent
+* 	parent
 
 	The parent project, i.e. all common settings and dependencies
 
-* 	pom.xml
+* 	lib
 
 	This is the builder project, i.e. it builds all modules.
 
-* 	Logger
+* 	logger
 
 	Our slf4j logger implementation which we use in all bundles.
 
-* 	SocketListener
+* 	socketlistener
 
 	A generic ServerSocket listener Thread implementation.
 	It listenes on a server socket und uses the Executer framework
 	to execute tasks.
 
-*	Test
+*	test
 
 	Generic Unit Test / Mockito helper classes used in some of our
 	unit tests.
 
-*	RemoteMessage
+*	remotemessage
 
 	Remote Interface for a remote messenger and a concrete implementation.
 
-*	Util
+*	util
 
 	Utility classes that implement functionality missing in the standard API
 	that are frequently needed.
+

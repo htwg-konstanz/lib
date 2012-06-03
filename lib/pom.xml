@@ -27,12 +27,12 @@
 	<parent>
 		<artifactId>parent</artifactId>
 		<groupId>de.fhkn.in.lib</groupId>
-		<relativePath>./parent/pom.xml</relativePath>
+		<relativePath>../parent/pom.xml</relativePath>
 		<version>1.0</version>
 	</parent>
 	
 	
-	<artifactId>build</artifactId>
+	<artifactId>lib</artifactId>
 	<name>lib Builder</name>
 	<description>
 		The Builder of all lib projects
@@ -40,10 +40,10 @@
 	<packaging>pom</packaging>
 		
 	<modules>
-		<module>logger</module>
-    	<module>socketlistener</module>
-		<module>test</module>
-    	<module>remotemessage</module>
-    	<module>util</module>
+			<module>../logger</module>
+			<module>../socketlistener</module>
+			<module>../test</module>
+			<module>../remotemessage</module>
+			<module>../util</module>
   	</modules>
 </project>
