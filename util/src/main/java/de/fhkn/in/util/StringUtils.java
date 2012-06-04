@@ -27,7 +27,11 @@ import java.util.Iterator;
  *
  */
 public final class StringUtils {
-    /**
+    private StringUtils() {
+    	// there are no instances of this class
+    }
+	
+	/**
      * Joins elements of the defined array to a single string. This is the
      * reverse to {@code String.split()}
      * 

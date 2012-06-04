@@ -31,6 +31,10 @@ import java.nio.ByteBuffer;
  */
 public final class ByteUtils {
 	
+	private ByteUtils() {
+		// there are no instances of this class
+	}
+	
 	/**
      * Serializes an Object to byte[].
      * The whole Object is serialized. This is not the same as using
