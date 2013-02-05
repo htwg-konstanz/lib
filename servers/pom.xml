@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>servers</groupId>
+  <artifactId>de.fhkn.in.lib</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <name>Generic Servers</name>
+  <description>Implementation of generic servers</description>
+  
+  <parent>
+		<artifactId>parent</artifactId>
+		<groupId>de.fhkn.in.lib</groupId>
+		<relativePath>../parent/pom.xml</relativePath>
+		<version>1.0</version>
+	</parent>
+  
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+	</dependencies>
+  
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

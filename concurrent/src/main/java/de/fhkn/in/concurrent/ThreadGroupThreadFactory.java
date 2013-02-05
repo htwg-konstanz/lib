@@ -26,7 +26,7 @@ import java.util.concurrent.ThreadFactory;
  * @author thomas zink, daniel maier
  * 
  */
-public class ThreadGroupFactory implements ThreadFactory {
+public class ThreadGroupThreadFactory implements ThreadFactory {
 
     private static final ThreadGroup threadGroup = Thread.currentThread().getThreadGroup();
 
